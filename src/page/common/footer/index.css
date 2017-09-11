@@ -1,0 +1,21 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-11 10:05:29
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-11 17:44:59
+*/
+footer{
+	height: 220px;
+	background: url('../../../image/footer.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+footer.w1200{
+	margin-top: 110px;
+}
+footer p {
+	text-align: center;
+	font-size: 18px;
+}
+footer p a{
+	color: #403e3e;
+}

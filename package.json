@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "WEBPACK_ENV=dev webpack-dev-server --inline --port 8089",
+    "dist": "WEBPACK_ENV=online webpack -p",
+    "dev_win": "set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8089",
+    "dist_win": "set WEBPACK_ENV=online && webpack -p"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +19,10 @@
     "html-webpack-plugin": "^2.30.1",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
-    "webpack": "^1.15.0"
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "dependencies": {
+    "hogan": "^1.0.2"
   }
 }

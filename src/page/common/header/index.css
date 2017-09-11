@@ -1,0 +1,66 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-11 10:04:05
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-11 16:04:14
+*/
+
+.w1200 {
+    width: 1200px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.clear:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+.head-bg {
+    width: 100%;
+    height: 262px;
+    background-color: #fff;
+    background-image: url('../../../image/hb1.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.right-ico {
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    width: 40px;
+    min-height: 40px;
+}
+
+.right-ico>p {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    background-color: #44a2db;
+}
+
+.right-ico>p>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.right-ico>p.ico-map a {
+    background: url('../../../image/chinamap.png') no-repeat center center;
+}
+
+.right-ico>p.ico-ser a {
+    background: url('../../../image/server.png') no-repeat center center;
+}
+
+

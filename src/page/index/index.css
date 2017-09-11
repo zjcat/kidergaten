@@ -2,9 +2,282 @@
 * @Author: Administrator
 * @Date:   2017-09-08 16:48:25
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-08 17:56:14
+* @Last Modified time: 2017-09-11 17:58:05
 */
-body{
-	background-color: #ccc;
-	background-image: url('../../image/b1.jpg');
+.navbox{
+	width: 100%;
+	height: 100px;
+	background-color: #0085d2;
 }
+.navbox nav ul{
+	padding: 0 17px;
+}
+.navbox li{
+	display: inline-block;
+	font-size: 18px;
+	text-align: center;
+	line-height: 100px;
+	margin-right: 110px;
+}
+.navbox ul li:last-child{
+	margin-right: 0;
+}
+.navbox li a{
+	color: #fff;
+	text-decoration: none;
+}
+/* 轮播图 */
+
+.banner {
+    width: 100%;
+    /*height: 560px;*/
+    /*background: black;*/
+    /*子绝父相*/
+    position: relative;
+    /*超出部分全部隐藏，解决横向滚动条*/
+    overflow: hidden;
+}
+
+.banner ul {
+    position: absolute;
+}
+
+.banner ul li {
+    /*这个100%是相对于父盒子的（会把父盒子的宽度继承过来,如父盒子300%,这这里的
+
+100%就会相当于300%）*/
+    width: 100%;
+    height: 400px;
+    float: left;
+    background: no-repeat top center;
+    background-size: 100% 100%;
+}
+
+
+/*.banner ul li:nth-child(1){*/
+
+
+/*background: url('./1.jpg') no-repeat center center;*/
+
+
+/*}*/
+
+
+/*.banner ul li:nth-child(2){*/
+
+
+/*background: url('./2.jpg') no-repeat center center;*/
+
+
+/*}*/
+
+
+/*.banner ul li:nth-child(3){*/
+
+
+/*background: url('./3.jpg') no-repeat center center;*/
+
+
+/*}*/
+
+.banner ol {
+    /*width: 60px;*/
+    height: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 50%;
+    /*margin-left: -40px;*/
+    bottom: 30px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.banner ol li {
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 5px 5px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner ol .current {
+    background: rgba(255, 255, 255, 1);
+}
+
+.banner i {
+    width: 58px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    margin-top: -60px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+}
+
+.banner .left {
+    left: 60px;
+    background: url('../../image/left_right.png') no-repeat 0 0px;
+}
+
+.banner .right {
+    right: 60px;
+    background: url('../../image/left_right.png') no-repeat 0px -120px;
+}
+
+.banner .left:hover,
+.banner .right:hover {
+    background-color: rgba(0, 0, 0, 0.31);
+}
+/* 结束轮播图 */
+.line-menu li{
+	display: inline-block;
+	width: calc(100%/3);
+	height: 67px;
+}
+.line-menu li a{
+	font-size: 26px;
+	text-decoration: none;
+	display: block;
+	width: 371px;
+	height: 100%;
+	text-align: center;
+	line-height: 67px;
+	color: #fff;
+	background: url('../../image/bc1.jpg') no-repeat top left; 
+}
+.line-menu li:nth-child(2) a{
+	background: url('../../image/bc2.jpg') no-repeat top center;
+	margin: auto;
+}
+.line-menu li:nth-child(3) a{
+	background: url('../../image/bc3.jpg') no-repeat top right; 
+	margin-left: 29px;
+}
+/* 主要内容区 */
+article.contentall li{
+	width: calc(100%/3);
+	margin-top: 50px; 
+	float: left;
+	overflow: hidden;
+}
+article.contentall li >p >a{
+	display: block;
+	width: 360px;
+	height: 100px;
+	
+}
+article.contentall li p.loacl>a{
+	background: url('../../image/c1.jpg') no-repeat top left;
+	
+}
+article.contentall li p.move>a{
+	background: url('../../image/c2.jpg') no-repeat top left;
+	margin-top: 14px;
+}
+article.contentall li h3 {
+	border-bottom: 2px #6ac7f0 dashed;
+	padding-bottom: 5px;
+	margin-bottom: 18px;
+	width: 360px;
+}
+article.contentall li h3 a{
+	font-size: 18px;
+	color: #6ac7f0;
+}
+article.contentall li h3 a span{
+	font-size: 12px;
+	word-spacing: 2px;
+	margin-left: 5px;
+}
+article.contentall li div.newli{
+
+}
+article.contentall li div.newli .left{
+	float: left;
+	width: 110px;
+	height: 110px;
+	overflow: hidden;
+}
+article.contentall li div.newli .right{
+	overflow: hidden;
+}
+article.contentall li div.newli .right p{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding: 0 5px 0 0;
+	margin-left: 5px;
+	background: url('../../image/d.png') no-repeat center left;
+}
+article.contentall li div.newli .right p a{
+	font-size: 14px;
+	line-height: 28px;
+	color: #292929;
+}
+article.contentall li div.newli .interduce{
+	background: url('../../image/schooll1.jpg') no-repeat center center;
+}
+article.contentall li div.newli .family{
+	background: url('../../image/childl1.jpg') no-repeat center center;
+}
+article.contentall ul.imgshow li p{
+	width: 85px;
+	height: 80px;
+	border-radius: 2px;
+	border: 1px solid #0085d2;
+	display: inline-block;
+	overflow: hidden;
+}
+article.contentall ul.imgshow li p img{
+	width: 100%;
+	height: 100%;
+}
+.flow{
+	margin-top: 50px;
+	border-top: 1px #0085d2 dashed;
+}
+.flow li{
+	float: left;
+}
+.flow li div.left{
+	float: left;
+	width: 175px;
+	margin-right: 12px;
+}
+.flow li div.left p{
+	width: 172px;
+	height: 150px;
+}
+.flow li.l1 div.left p{
+	background: url('../../image/f1.png') no-repeat center left;
+}
+.flow li.l2 div.left p{
+	background: url('../../image/f2.png') no-repeat center left;
+}
+.flow li.l3 div.left p{
+	background: url('../../image/f3.png') no-repeat center left;
+}
+.flow li.l4 div.left p{
+	background: url('../../image/f4.png') no-repeat center left;
+}
+.flow li.l5 div.left p{
+	background: url('../../image/f5.png') no-repeat center left;
+}
+.flow li div.left a{
+	font-size: 14px;
+	color: #000;
+	display: block;
+	text-align: center;
+}
+.flow li em{
+	display: block;
+	width: 54px;
+	height: 150px;
+	background: url('../../image/j1.png') no-repeat center right;
+	overflow: hidden;
+	margin-right:12px;
+}
+/* 主要内容区结束 */

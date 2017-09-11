@@ -1,11 +1,186 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<%= require('html-loader!./layout/head-html.html') %>
-	
+    <%= require('html-loader!./layout/head-html.html') %>
+        <title>
+            <%= htmlWebpackPlugin.options.title%>--幼儿园</title>
 </head>
+
 <body>
-	<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-	
+    <%=require('html-loader!./layout/header.html')%>
+        <section class="navbox">
+            <nav class="w1200">
+                <ul>
+                    <li><a href="index.html" title="">首页</a></li>
+                    <li><a href="index.html" title="">医疗指导</a></li>
+                    <li><a href="index.html" title="">饮食指导</a></li>
+                    <li><a href="index.html" title="">户外拓展</a></li>
+                    <li><a href="index.html" title="">旅游指南</a></li>
+                    <li><a href="index.html" title="">公司介绍</a></li>
+                    <li><a href="index.html" title="">联系我们</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="lunbo w1200">
+            <div class="htmleaf-container">
+                <div class="banner">
+                    <ul>
+                    </ul>
+                    <ol>
+                    </ol>
+                    <i class="left"></i><i class="right"></i>
+                </div>
+            </div>
+        </section>
+        <section class="content w1200">
+        	<ul class="line-menu">
+        		<li><a href="">成长日记</a></li><li><a href="">性格培养</a></li><li><a href="">习惯养成</a></li>
+        	</ul>
+        	<article class="contentall">
+        		<ul class="clear">
+        			<li class="firstli">
+        				<p class="loacl"><a href="" title=""></a></p>
+        				<p class="move"><a href="" title=""></a></p>
+        			</li>
+        			<li>
+						<h3><a href="" title="">园所介绍<span>The Park Introduced</span></a></h3>
+						<div class="newli">
+							<div class="left interduce">
+								<img src="../image/schooll1.jpg" alt="">
+							</div>
+							<div class="right">
+								<p><a href="" title=""> 【热烈祝贺】艺术幼儿园开业庆典！</a></p>
+								<p>
+								<a href="" title="">
+									 【热烈祝贺】艺术幼儿园开业庆典！
+								</a>
+								</p>
+								<p><a href="" title="">
+									【精彩活动】2017第三届BTV才艺盛典
+								</a></p>
+                                <p><a href="" title="">
+                                	【精彩活动】2017北京电视台艺术音乐堂
+                                </a></p>
+
+							</div>
+						</div>
+        			</li>
+        			<li>
+						<h3><a href="" title="">亲子活动 <span>Family Day</span></a></h3>
+						<div class="newli">
+							<div class="left family">
+								<img src="../image/childl1.jpg" alt="">
+							</div>
+							<div class="right">
+								<p><a href="" title=""> 【热烈祝贺】艺术幼儿园开业庆典！</a></p>
+								<p>
+								<a href="" title="">
+									 【热烈祝贺】艺术幼儿园开业庆典！
+								</a>
+								</p>
+								<p><a href="" title="">
+									【精彩活动】2017第三届BTV才艺盛典
+								</a></p>
+                                <p><a href="" title="">
+                                	【精彩活动】2017北京电视台艺术音乐堂
+                                </a></p>
+
+							</div>
+						</div>
+        			</li>
+        		</ul>
+        		<ul class="clear imgshow">
+        			<li class="">
+        				<h3><a href="" title="">课程展示<span>Curriculum Display</span></a></h3>
+        				<p><img src="" alt=""></p>
+        				<p><img src="" alt=""></p>
+        				<p><img src="" alt=""></p>
+        				<p><img src="" alt=""></p>
+        			</li>
+        			<li>
+						<h3><a href="" title="">优秀教师<span>Prominent Teacher</span></a></h3>
+						<p><img src="" alt=""></p>
+        				<p><img src="" alt=""></p>
+        				<p><img src="" alt=""></p>
+        				<p><img src="" alt=""></p>
+        			</li>
+        			<li>
+						<h3><a href="" title="">幼儿才艺<span>Child Talent</span></a></h3>
+						<p><img src="" alt=""></p>
+        				<p><img src="" alt=""></p>
+        				<p><img src="" alt=""></p>
+        				<p><img src="" alt=""></p>
+        			</li>
+        		</ul>
+        		<ul class="clear">
+        			<li>
+						<h3><a href="" title="">应季商品<span>Season Goods</span></a></h3>
+						<div class="newli">
+							<div class="left interduce">
+								<img src="../image/schooll1.jpg" alt="">
+							</div>
+							<div class="right">
+								<p><a href="" title=""> 【热烈祝贺】艺术幼儿园开业庆典！</a></p>
+								<p>
+								<a href="" title="">
+									 【热烈祝贺】艺术幼儿园开业庆典！
+								</a>
+								</p>
+								<p><a href="" title="">
+									【精彩活动】2017第三届BTV才艺盛典
+								</a></p>
+                                <p><a href="" title="">
+                                	【精彩活动】2017北京电视台艺术音乐堂
+                                </a></p>
+
+							</div>
+						</div>
+        			</li>
+        			
+        		</ul>
+        	</article>
+        	<div class="flow">
+        		<ul class="clear">
+        			<li class="l1">
+        				<div class="left">
+	        				<p></p>
+	        				<a href="">在线咨询</a>
+	        			</div>
+        				<em class="arrow"></em>
+        			</li>
+        			<li class="l2">
+        				<div class="left">
+	        				<p></p>
+	        				<a href="">加盟申请</a>
+	        			</div>
+        				<em class="arrow"></em>
+        			</li>
+        			<li class="l3">
+        				<div class="left">
+	        				<p></p>
+	        				<a href="">资格评定</a>
+	        			</div>
+        				<em class="arrow"></em>
+        			</li>
+        			<li class="l4">
+        				<div class="left">
+	        				<p></p>
+	        				<a href="">实地考察</a>
+	        			</div>
+        				<em class="arrow"></em>
+        			</li>
+        			<li class="l5">
+        				<div class="left">
+	        				<p></p>
+	        				<a href="">签订协议</a>
+	        			</div>
+        			</li>
+        		</ul>
+        	</div>
+        </section>
+
+        <%=require('html-loader!./layout/footer.html')%>
 </body>
+
 </html>
