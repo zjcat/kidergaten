@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-09-08 15:50:30
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-11 14:04:46
+* @Last Modified time: 2017-09-12 09:26:13
 */
 var webpack = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");//css单独打包
@@ -40,8 +40,8 @@ var config = {
     module: {
     	loaders : [
      		{test : /\.css$/, loader : ExtractTextPlugin.extract("style-loader","css-loader") },
-     		{test: /\.(gif|jpg|png|woff|svg|eot|ttf)\??.*$/, loader: 'url-loader?limit=20000&name=image/[name].[ext]'},
-     		{test: /\.string$/, loader: 'html-loader'}
+     		{test : /\.(gif|jpg|png|woff|svg|eot|ttf)\??.*$/, loader: 'url-loader?limit=20000&name=image/[name].[ext]'},
+     		{test : /\.string$/, loader: 'html-loader'}
 		]
   	},
   	resolve : {
@@ -68,6 +68,6 @@ var config = {
 }
 //
 if('dev' === WEBPACK_ENV){
-    config.entry.common.push('webpack-dev-server/client?http://localhost:8089/')
+    config.entry.common.push('webpack-dev-server/client?http://localhost:8088/')
 }
 module.exports = config;

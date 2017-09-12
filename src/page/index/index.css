@@ -2,11 +2,11 @@
 * @Author: Administrator
 * @Date:   2017-09-08 16:48:25
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-11 17:58:05
+* @Last Modified time: 2017-09-12 10:02:35
 */
 .navbox{
 	width: 100%;
-	height: 100px;
+	height: 60px;
 	background-color: #0085d2;
 }
 .navbox nav ul{
@@ -16,7 +16,7 @@
 	display: inline-block;
 	font-size: 18px;
 	text-align: center;
-	line-height: 100px;
+	line-height: 60px;
 	margin-right: 110px;
 }
 .navbox ul li:last-child{
@@ -241,11 +241,11 @@ article.contentall ul.imgshow li p img{
 }
 .flow li{
 	float: left;
+	margin-left: 21px;
 }
 .flow li div.left{
 	float: left;
 	width: 175px;
-	margin-right: 12px;
 }
 .flow li div.left p{
 	width: 172px;
@@ -255,16 +255,16 @@ article.contentall ul.imgshow li p img{
 	background: url('../../image/f1.png') no-repeat center left;
 }
 .flow li.l2 div.left p{
-	background: url('../../image/f2.png') no-repeat center left;
+	background: url('../../image/f2.png') no-repeat center center;
 }
 .flow li.l3 div.left p{
-	background: url('../../image/f3.png') no-repeat center left;
+	background: url('../../image/f3.png') no-repeat center center;
 }
 .flow li.l4 div.left p{
-	background: url('../../image/f4.png') no-repeat center left;
+	background: url('../../image/f4.png') no-repeat center center;
 }
 .flow li.l5 div.left p{
-	background: url('../../image/f5.png') no-repeat center left;
+	background: url('../../image/f5.png') no-repeat center right;
 }
 .flow li div.left a{
 	font-size: 14px;
@@ -278,6 +278,5 @@ article.contentall ul.imgshow li p img{
 	height: 150px;
 	background: url('../../image/j1.png') no-repeat center right;
 	overflow: hidden;
-	margin-right:12px;
 }
 /* 主要内容区结束 */

@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-09-11 10:05:29
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-11 17:44:59
+* @Last Modified time: 2017-09-12 09:37:24
 */
 footer{
 	height: 220px;
@@ -18,4 +18,5 @@ footer p {
 }
 footer p a{
 	color: #403e3e;
+	margin: 0 10px;
 }
