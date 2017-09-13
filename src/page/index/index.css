@@ -2,30 +2,8 @@
 * @Author: Administrator
 * @Date:   2017-09-08 16:48:25
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-12 10:02:35
+* @Last Modified time: 2017-09-13 14:04:01
 */
-.navbox{
-	width: 100%;
-	height: 60px;
-	background-color: #0085d2;
-}
-.navbox nav ul{
-	padding: 0 17px;
-}
-.navbox li{
-	display: inline-block;
-	font-size: 18px;
-	text-align: center;
-	line-height: 60px;
-	margin-right: 110px;
-}
-.navbox ul li:last-child{
-	margin-right: 0;
-}
-.navbox li a{
-	color: #fff;
-	text-decoration: none;
-}
 /* 轮播图 */
 
 .banner {
@@ -157,11 +135,18 @@
 	margin-left: 29px;
 }
 /* 主要内容区 */
+article.contentall li:nth-child(2n){
+	padding-left: 20px;
+}
+article.contentall li:nth-child(3n){
+	padding-left: 40px;
+}
 article.contentall li{
 	width: calc(100%/3);
 	margin-top: 50px; 
 	float: left;
 	overflow: hidden;
+	box-sizing: border-box;
 }
 article.contentall li >p >a{
 	display: block;
@@ -171,7 +156,6 @@ article.contentall li >p >a{
 }
 article.contentall li p.loacl>a{
 	background: url('../../image/c1.jpg') no-repeat top left;
-	
 }
 article.contentall li p.move>a{
 	background: url('../../image/c2.jpg') no-repeat top left;
@@ -224,12 +208,13 @@ article.contentall li div.newli .family{
 	background: url('../../image/childl1.jpg') no-repeat center center;
 }
 article.contentall ul.imgshow li p{
-	width: 85px;
+	width: 80px;
 	height: 80px;
 	border-radius: 2px;
 	border: 1px solid #0085d2;
 	display: inline-block;
 	overflow: hidden;
+	margin-left: 4px;
 }
 article.contentall ul.imgshow li p img{
 	width: 100%;

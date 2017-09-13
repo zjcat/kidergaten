@@ -2,11 +2,13 @@
  * @Author: Administrator
  * @Date:   2017-09-08 15:38:05
  * @Last Modified by:   Administrator
- * @Last Modified time: 2017-09-11 14:44:20
+ * @Last Modified time: 2017-09-13 10:58:04
  */
 require('./index.css');
 require('page/common/header/index.js');
 require('page/common/footer/index.js');
+var _cat = require('util/interface.js');
+var navList = require('page/common/nav/index.js');
 //轮播图
 var page = {
     banner: function() {
@@ -134,4 +136,7 @@ var page = {
 $(function() { 
 	//页面加载完毕才执行
 	page.banner();
+    navList.init({
+        name : 'index'
+    })
 });

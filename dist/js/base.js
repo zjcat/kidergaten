@@ -90,40 +90,24 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/dist";
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 0:
+/******/ ([
+/* 0 */
 /***/ (function(module, exports) {
 
 	/*
 	* @Author: Administrator
 	* @Date:   2017-09-08 16:39:16
 	* @Last Modified by:   Administrator
-	* @Last Modified time: 2017-09-08 16:39:54
+	* @Last Modified time: 2017-09-11 09:57:25
 	*/
-	console.log('Im globel')
+	//公共js接口
 
-/***/ }),
-
-/***/ 7:
-/***/ (function(module, exports) {
-
-	/*
-	* @Author: Administrator
-	* @Date:   2017-09-08 16:35:19
-	* @Last Modified by:   Administrator
-	* @Last Modified time: 2017-09-08 16:36:05
-	*/
-	module.exports = {
-		test : 123
-	}
 
 /***/ })
-
-/******/ });
+/******/ ]);

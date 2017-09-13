@@ -1,0 +1,14 @@
+<nav class="w1200">
+	{{#navList}}
+		{{#isActive}}
+			<li class="active">
+		{{/isActive}}
+		{{^isActive}}
+			<li class="">
+		{{/isActive}}
+				<a href="{{href}}" title="">
+					{{content}}
+				</a>
+			</li>
+	{{/navList}}
+</nav>

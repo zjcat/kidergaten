@@ -2,5 +2,30 @@
 * @Author: Administrator
 * @Date:   2017-09-12 10:07:15
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-12 10:07:31
+* @Last Modified time: 2017-09-13 10:59:26
 */
+.navbox .w1200{
+	height: 60px;
+	background-color: #0085d2;
+}
+.navbox nav ul{
+}
+.navbox li{
+	float: left;
+	height: 100%;
+	font-size: 18px;
+	text-align: center;
+	line-height: 60px;
+	width: calc(100%/7);
+	list-style: none;
+}
+.navbox li.active{
+	background-color: #1674AA;
+}
+.navbox ul li:last-child{
+	margin-right: 0;
+}
+.navbox li a{
+	color: #fff;
+	text-decoration: none;
+}
