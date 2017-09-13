@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-09-08 16:48:25
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-13 14:04:01
+* @Last Modified time: 2017-09-13 16:13:51
 */
 /* 轮播图 */
 
@@ -203,6 +203,9 @@ article.contentall li div.newli .right p a{
 }
 article.contentall li div.newli .interduce{
 	background: url('../../image/schooll1.jpg') no-repeat center center;
+}
+article.contentall li div.newli .interduce img{
+	height: 100%;
 }
 article.contentall li div.newli .family{
 	background: url('../../image/childl1.jpg') no-repeat center center;

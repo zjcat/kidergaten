@@ -6,7 +6,7 @@ webpackJsonp([1],[
 	 * @Author: Administrator
 	 * @Date:   2017-09-08 15:38:05
 	 * @Last Modified by:   Administrator
-	 * @Last Modified time: 2017-09-13 10:58:04
+	 * @Last Modified time: 2017-09-13 15:56:14
 	 */
 	__webpack_require__(1);
 	__webpack_require__(21);
@@ -18,7 +18,7 @@ webpackJsonp([1],[
 	    banner: function() {
 	        var images_height = '400px';
 	        //图片路径/链接(数组形式):
-	        var images_url = [__webpack_require__(39),__webpack_require__(40),__webpack_require__(41),__webpack_require__(42)];
+	        var images_url = ['../image/top06.jpg','../image/1.jpg','../image/2.jpg','../image/3.jpg'];
 	        var images_count = images_url.length;
 	        //console.log(images_count);
 
