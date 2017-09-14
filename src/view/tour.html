@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <%= require('html-loader!./layout/head-html.html') %>
+        <title>
+            <%= htmlWebpackPlugin.options.title%>--幼儿园</title>
+</head>
+
+<body>
+    <%=require('html-loader!./layout/header.html')%>
+        <section class="navbox">
+        </section>
+        <section class="layout-tow w1200">
+            <div class="nav-sad">
+            <%=require('html-loader!./layout/nav-sad.html')%>
+                
+            </div>
+            <div class="contentbox">
+                <div class="nav-simple">当前页面：<a>旅游指南</a>/<a>周末趣玩</a>/<a>主题乐园</a>
+                </div>
+                <article class="articlebox">
+                    <h2>小学生“学农体验”校外野炊主题活动</h2>
+                    <div class="brief">
+                        <p>
+                            <span>
+                                发布时间： 2015-01-26 14:00
+                            </span>　
+                            <span>
+                                来源：拓展训练　http://www.tuozhanm.com    
+                            </span>  
+                            <span>
+                                 点击数：153
+                            </span>      
+                        </p>
+                        <p>
+                            消防知识讲座与实践 让学生了解在发生火灾中怎样保护自己，增强团队意识，如何正确使用消防器械。
+                        </p>
+                    </div>
+                    <div class="allContentMag">
+                        <p>
+                            基地介绍：北京铭润拓展基地是海淀教委指定社会实践大课堂，基地和教委共同制定素质教育方案，为学生
+成为国家栋梁奠定了基础。<br>
+活动内容：体验式拓展   学农体验（贴饼子）   植树<br>   
+具体活动安排：<br>
+一：体验式拓展训练：学生以班级为单位分成两组进行比赛，活动有：翻山越岭、高低晃桥，相依为命、营
+救战友、软桥、荡木桥、集体木鞋、合理取水等。<br>
+二、野炊贴饼子<br>
+基地设置有野炊区，以班级为单位分配活动，基地会给每个班级一定的虚拟原材料，学生拿到原材料进行加
+工，拿到原料以后按照每个人分配的任务进行各自应该完成的部分。<br>
+三： “参与绿色行动, 保护美丽家园”为主题的种植/植树活动。<br>
+四：消防知识讲座与实践<br>
+     让学生了解在发生火灾中怎样保护自己，增强团队意识，如何正确使用消防器械<br>
+五：师生情饺子宴<br>
+    学生自己动手包饺子：锻炼自己动手能力，增进师生感情，感受劳动的快乐<br>
+六：颁发奖状<br>
+1、团队协作拓展活动获胜小组颁发荣誉证书<br>
+2、制作菜肴最佳和最丰盛的小组颁发证书
+以上学校可任选两项<br>
+含以上方案任意两项  植树   保险  含老师餐  车费<br>
+服务标准：<br>
+1、带队老师享有15:1的优惠政策用午餐<br>
+2、凡有特困证明的学生享受我庄园的免费活动<br>
+3、为确保活动的顺利进行请参与者统一穿校服、运动鞋<br>
+4、基地提供上门签订协议并负责全程接团、送团服务<br>
+5、每班基地会配备一名教官
+                        </p>
+                    </div>
+                    <div class="imgshow">
+                        <img src="../image/bg2.jpg" alt="">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <%=require('html-loader!./layout/footer.html')%>
+</body>
+
+</html>

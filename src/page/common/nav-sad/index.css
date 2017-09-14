@@ -1,0 +1,110 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-14 09:57:38
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-14 12:01:16
+*/
+/* 左侧菜单导航 */
+.layout-tow .nav-sad .main-menu{
+	width: 100%;
+	background-color: #0085d2;
+	border-radius: 2px;
+	box-shadow: 0 0 5px #f7f7f7;
+	padding-bottom: 230px;
+	overflow: hidden;
+}
+.layout-tow .nav-sad .main-menu li.active >a{
+	background-color: #1674AA;
+}
+.layout-tow .nav-sad .main-menu li>a{
+	height: 40px;
+	line-height: 40px;
+}
+.layout-tow .nav-sad .main-menu li div.menubox{
+	border-bottom: 1px solid #0075a9;
+}
+.layout-tow .nav-sad .main-menu li div.menubox p{
+	display: table;
+	width: 100%;
+}
+.layout-tow .nav-sad .main-menu li div.menubox p a{
+	display: table-cell;
+	text-align: center;
+	height: 30px;
+	border-top: 1px solid #0075a9;
+	border-right: 1px solid #0075a9;
+	line-height: 30px;
+	width: calc(100%/3);
+}
+.layout-tow .nav-sad .main-menu li div.menubox p a.active{
+	background-color: #1674AA;
+}
+.layout-tow .nav-sad .main-menu a{
+	color: #fff;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+}
+/* 活动 */
+.layout-tow .nav-sad .left-lebox{
+	margin-top: 18px;
+	background-color: #fff;
+	border-radius: 2px;
+	overflow: hidden;
+	box-shadow: 0 0 15px #f8f8f8;
+}
+.layout-tow .nav-sad .left-lebox .titleof{
+	display: table;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.layout-tow .nav-sad .left-lebox .titleof a{
+	display: table-cell;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 35px;
+	height: 35px;
+	font-size: 16px;
+}
+.layout-tow .nav-sad .left-lebox .titleof a:first-child{
+	background-color: #0085d2;
+	color: #fff;
+}
+.layout-tow .nav-sad .left-lebox .titleof a:last-child{
+	background-color:#fff ;
+	color: #0085d2;
+	border: 1px solid #eee;
+}
+.layout-tow .nav-sad .activemag .newMag a{
+	display: block;
+	color: #a9a9a9;
+	font-size: 12px;
+	height: 25px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 25px;
+	
+}
+/* 加盟 */
+.layout-tow .nav-sad .join-in .mag-self{
+	padding:0 15px ;
+}
+.layout-tow .nav-sad .join-in .mag-self li{
+	margin-bottom: 15px;
+}
+.layout-tow .nav-sad .join-in .mag-self li label{
+	padding-left: 15px;
+	display: inline-block;
+	background: url('../../../image/icon1.png') no-repeat left;
+	color: #dedede;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	background-position-y: -5px;
+}
+.layout-tow .nav-sad .join-in .mag-self li input{
+	border: none;
+	border-bottom: 1px solid #dedede;
+	width: 144px;
+}

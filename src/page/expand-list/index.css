@@ -1,0 +1,82 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-14 14:55:45
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-14 15:39:22
+*/
+.layout-tow{
+	overflow: hidden;
+}
+.nav-sad{
+	float: left;
+	width: 230px;
+	min-height: 500px;
+}
+.contentbox {
+	overflow: hidden;
+	width: calc(100% - 230px-30px);
+	min-height: 600px;
+	padding-left: 30px;
+	padding-top: 17px;
+}
+/* 列表区 */
+.contList{
+	padding-bottom: 20px;
+}
+.contList li{
+	width: 99%;
+	margin-top: 25px;
+	padding:15px 20px ;
+	height: 225px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0 0 25px 10px #fafafa;
+}
+.contList li >a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.contList li .left-cont{
+	float: left;
+	width: calc(100% - 240px);
+}
+.contList li .left-cont h3{
+	font-size: 24px;
+	color: #000;
+	font-weight: 100;
+	margin-bottom: 25px;
+}
+.contList li .left-cont p{
+	font-size: 14px;
+	line-height: 28px;
+	margin-bottom: 35px;
+	height: 80px;
+	padding-right: 15px;
+	word-break: break-all;
+	word-wrap: break-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.contList li .left-cont a{
+	color: #0085d2;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.contList li .right{
+	overflow: hidden;
+	width: 240px;
+	height: 180px;
+	border-radius: 5px;
+	background: url('../../image/bg2.jpg') no-repeat center center;
+}
+.contList li .right img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}

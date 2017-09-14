@@ -1,0 +1,75 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-14 14:54:54
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-14 15:57:13
+*/
+.layout-tow{
+	overflow: hidden;
+}
+.nav-sad{
+	float: left;
+	width: 230px;
+	min-height: 500px;
+}
+.contentbox {
+	overflow: hidden;
+	width: calc(100% - 230px-30px);
+	min-height: 600px;
+	padding-left: 30px;
+	padding-top: 17px;
+}
+/* 内容区 */
+.contentbox .nav-simple{
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 15px;
+}
+.contentbox .nav-simple a{
+	color: #000;
+}
+.contentbox .articlebox h2{
+	font-size: 18px;
+	text-align: center;
+	line-height: 36px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.contentbox .articlebox .brief p{
+	font-size: 12px;
+	line-height: 24px;
+}
+.contentbox .articlebox .contmagbox{
+	padding-top: 12px;
+}
+.contentbox .articlebox .contmagbox label{
+	display: block;
+	background-color: #0085d2;
+	color: #fff;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	width: 96px;
+	text-align: center;
+	border-radius: 2px;
+	margin-bottom: 12px;
+}
+.contentbox .articlebox .contmagbox p{
+	font-size: 16px;
+	color: #000;
+	line-height: 32px;
+}
+.contentbox .articlebox .imgshow{
+	width: 100%;
+	margin-top: 18px;
+}
+.contentbox .articlebox .imgshow img{
+	display: block;
+	width: 100%;
+	height: 320px;
+	margin-bottom: 18px;
+	background: url('../../image/bg2.jpg') no-repeat center center;
+	background-size: 100%;
+	border-radius: 5px;
+}

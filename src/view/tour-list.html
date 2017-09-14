@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <%= require('html-loader!./layout/head-html.html') %>
+        <title>
+            <%= htmlWebpackPlugin.options.title%>--幼儿园</title>
+</head>
+
+<body>
+    <%=require('html-loader!./layout/header.html')%>
+        <section class="navbox">
+        </section>
+        <section class="layout-tow w1200">
+            <div class="nav-sad">
+            <%=require('html-loader!./layout/nav-sad.html')%>
+                
+            </div>
+            <div class="contentbox">
+                <div class="nav-simple">当前页面：<a>旅游指南</a>
+                </div>
+                <ul class="contList">
+                    <li>
+                        <div class="left">
+                            <img src="../image/bc1.jpg" alt="">
+                        </div>
+                        <div class="right-cont">
+                            <h3>
+                                小学生“学农体验”校外野炊主题活动
+                            </h3>  
+                            <p>消防知识讲座与实践 让学生了解在发生火灾中怎样保护自己，增强团队意识，如何正确使用消防器械。</p>
+                        </div>
+                        <a href="./tour.html"></a>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="../image/bc1.jpg" alt="">
+                        </div>
+                        <div class="right-cont">
+                            <h3>
+                                小学生“学农体验”校外野炊主题活动
+                            </h3>  
+                            <p>消防知识讲座与实践 让学生了解在发生火灾中怎样保护自己，增强团队意识，如何正确使用消防器械。</p>
+                        </div>
+                        <a href="./tour.html"></a>
+                    </li>
+                    <li>
+                        <div class="left">
+                            <img src="../image/bc1.jpg" alt="">
+                        </div>
+                        <div class="right-cont">
+                            <h3>
+                                小学生“学农体验”校外野炊主题活动
+                            </h3>  
+                            <p>消防知识讲座与实践 让学生了解在发生火灾中怎样保护自己，增强团队意识，如何正确使用消防器械。</p>
+                        </div>
+                        <a href="./tour.html"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <%=require('html-loader!./layout/footer.html')%>
+</body>
+
+</html>

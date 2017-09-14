@@ -1,0 +1,78 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-14 14:07:28
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-14 14:52:51
+*/
+/*
+* @Author: Administrator
+* @Date:   2017-09-14 10:01:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-14 13:56:27
+*/
+
+/* 两栏布局 */
+.layout-tow{
+	overflow: hidden;
+}
+.nav-sad{
+	float: left;
+	width: 230px;
+	min-height: 500px;
+}
+.contentbox {
+	overflow: hidden;
+	width: calc(100% - 230px-30px);
+	min-height: 600px;
+	padding-left: 30px;
+	padding-top: 17px;
+}
+/* 列表区 */
+.contList li{
+	width: 100%;
+	margin-top: 25px;
+	position: relative;
+	height: 85px;
+	overflow: hidden;
+	background-color: #eee;
+}
+.contList li a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.contList li .left{
+	float: left;
+	width: 162px;
+	height: 85px;
+	overflow: hidden;
+	border-radius: 5px;
+	background: url('../../image/bg2.jpg') no-repeat center center;
+}
+.contList li .left img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.contList li .right-cont{
+	overflow: hidden;
+	padding-left: 15px;
+}
+.contList li .right-cont h3{
+	font-size: 20px;
+	color: #000;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding-top: 12px;
+	padding-bottom: 20px;
+}
+.contList li .right-cont p{
+	font-size: 12px;
+	color: #000;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}

@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-09-08 15:50:30
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-13 13:50:57
+* @Last Modified time: 2017-09-14 16:01:30
 */
 var webpack = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");//css单独打包
@@ -24,9 +24,12 @@ var getHtmlConfig = function(name,title){
 //webpack config
 var config = {
 	entry: {
-	 	'common' : './src/page/common/index.js',
-	 	'index'  : './src/page/index/index.js',
-	 	'login'  : './src/page/login/index.js'
+	 	'common'        : './src/page/common/index.js',
+	 	'index'         : './src/page/index/index.js',
+	 	'tour'          : './src/page/tour/index.js',
+        'tour-list'     : './src/page/tour-list/index.js',
+        'expand-list'   : './src/page/expand-list/index.js',
+        'expand'        : './src/page/expand/index.js'
 	},
     output: {
          path: './dist',//放置的目标文件
@@ -63,7 +66,11 @@ var config = {
      	//把css单独打包到文件夹
      	new ExtractTextPlugin("css/[name].css"),
      	//html模板处理
-     	new HtmlWebpackPlugin(getHtmlConfig('index','首页'))
+     	new HtmlWebpackPlugin(getHtmlConfig('index','首页')),
+        new HtmlWebpackPlugin(getHtmlConfig('tour','旅游指南')),
+        new HtmlWebpackPlugin(getHtmlConfig('tour-list','旅游指南')),
+        new HtmlWebpackPlugin(getHtmlConfig('expand-list','户外拓展')),
+        new HtmlWebpackPlugin(getHtmlConfig('expand','户外拓展'))
     ]
 }
 //
