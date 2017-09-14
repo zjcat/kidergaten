@@ -2,9 +2,11 @@
 * @Author: Administrator
 * @Date:   2017-09-11 10:04:05
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-14 16:12:25
+* @Last Modified time: 2017-09-14 17:29:56
 */
-
+html,body{
+    font-family: "微软雅黑"
+}
 .w1200 {
     width: 1200px;
     margin: auto;
