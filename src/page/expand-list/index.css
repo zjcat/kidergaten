@@ -2,10 +2,10 @@
 * @Author: Administrator
 * @Date:   2017-09-14 14:55:45
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-14 15:39:22
+* @Last Modified time: 2017-09-14 17:55:50
 */
 .layout-tow{
-	overflow: hidden;
+	display: table;
 }
 .nav-sad{
 	float: left;
@@ -13,8 +13,9 @@
 	min-height: 500px;
 }
 .contentbox {
-	overflow: hidden;
-	width: calc(100% - 230px-30px);
+	display: table;
+	width: calc(100% - 230px - 30px);
+	width: -webkit-calc(100% - 230px - 30px);
 	min-height: 600px;
 	padding-left: 30px;
 	padding-top: 17px;

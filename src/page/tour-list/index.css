@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-09-14 14:07:28
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-14 14:52:51
+* @Last Modified time: 2017-09-14 17:56:06
 */
 /*
 * @Author: Administrator
@@ -13,7 +13,7 @@
 
 /* 两栏布局 */
 .layout-tow{
-	overflow: hidden;
+	display: table;
 }
 .nav-sad{
 	float: left;
@@ -21,8 +21,9 @@
 	min-height: 500px;
 }
 .contentbox {
-	overflow: hidden;
-	width: calc(100% - 230px-30px);
+	display: table;
+	width: calc(100% - 230px - 30px);
+	width: -webkit-calc(100% - 230px - 30px);
 	min-height: 600px;
 	padding-left: 30px;
 	padding-top: 17px;

@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-09-14 09:57:38
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-14 12:01:16
+* @Last Modified time: 2017-09-14 17:57:52
 */
 /* 左侧菜单导航 */
 .layout-tow .nav-sad .main-menu{
@@ -84,7 +84,7 @@
 	text-overflow: ellipsis;
 	overflow: hidden;
 	line-height: 25px;
-	
+	padding-left: 14px;
 }
 /* 加盟 */
 .layout-tow .nav-sad .join-in .mag-self{
