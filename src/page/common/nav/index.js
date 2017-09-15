@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-09-12 10:07:04
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-14 14:57:05
+* @Last Modified time: 2017-09-15 10:48:59
 */
 require('./index.css');
 var int = require('util/interface.js');
@@ -29,12 +29,12 @@ var navList = {
 		name : '',
 		navList :[
 			{'content' : '首页', 'href' : 'index.html','name' : 'index'},
-			{'content' : '医疗指导', 'href' : 'yiliao.html','name' : 'yiliao'},
-			{'content' : '饮食指导', 'href' : 'yinshi.html','name' : 'yinshi'},
+			{'content' : '饮食指导', 'href' : 'yiliao.html','name' : 'yinshi'},
+			{'content' : '医疗指导', 'href' : 'yinshi.html','name' : 'yiliao'},
 			{'content' : '户外扩展', 'href' : 'expand-list.html','name' : 'expand-list'},
 			{'content' : '旅游指南', 'href' : 'tour-list.html','name' : 'tour-list'},
 			{'content' : '公司介绍', 'href' : 'gongsi.html','name' : 'gongsi'},
-			{'content' : '练习我们', 'href' : 'lianxi.html','name' : 'lianxi'}
+			{'content' : '联系我们', 'href' : 'lianxi.html','name' : 'lianxi'}
 
 		]
 	}

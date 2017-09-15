@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-09-08 16:48:25
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-13 16:13:51
+* @Last Modified time: 2017-09-15 17:49:58
 */
 /* 轮播图 */
 
@@ -229,40 +229,46 @@ article.contentall ul.imgshow li p img{
 }
 .flow li{
 	float: left;
-	margin-left: 21px;
+	margin-left: 5px;
 }
 .flow li div.left{
 	float: left;
 	width: 175px;
 }
 .flow li div.left p{
-	width: 172px;
+	width: 112px;
 	height: 150px;
+	margin: auto;
 }
 .flow li.l1 div.left p{
 	background: url('../../image/f1.png') no-repeat center left;
+	background-size: 100%;
 }
 .flow li.l2 div.left p{
 	background: url('../../image/f2.png') no-repeat center center;
+	background-size: 100%;
 }
 .flow li.l3 div.left p{
 	background: url('../../image/f3.png') no-repeat center center;
+	background-size: 100%;
 }
 .flow li.l4 div.left p{
 	background: url('../../image/f4.png') no-repeat center center;
+	background-size: 100%;
 }
 .flow li.l5 div.left p{
 	background: url('../../image/f5.png') no-repeat center right;
+	background-size: 100%;
 }
 .flow li div.left a{
-	font-size: 14px;
+	font-size: 16px;
 	color: #000;
 	display: block;
 	text-align: center;
 }
 .flow li em{
 	display: block;
-	width: 54px;
+	width: 75px;
 	height: 150px;
 	background: url('../../image/j1.png') no-repeat center right;
 	overflow: hidden;

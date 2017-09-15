@@ -104,7 +104,7 @@
 	* @Author: Administrator
 	* @Date:   2017-09-08 16:39:16
 	* @Last Modified by:   Administrator
-	* @Last Modified time: 2017-09-11 09:57:25
+	* @Last Modified time: 2017-09-15 10:47:27
 	*/
 	//公共js接口
 
@@ -1077,12 +1077,12 @@
 			name : '',
 			navList :[
 				{'content' : '首页', 'href' : 'index.html','name' : 'index'},
-				{'content' : '医疗指导', 'href' : 'yiliao.html','name' : 'yiliao'},
-				{'content' : '饮食指导', 'href' : 'yinshi.html','name' : 'yinshi'},
+				{'content' : '饮食指导', 'href' : 'yiliao.html','name' : 'yiliao'},
+				{'content' : '医疗指导', 'href' : 'yinshi.html','name' : 'yinshi'},
 				{'content' : '户外扩展', 'href' : 'expand-list.html','name' : 'expand-list'},
 				{'content' : '旅游指南', 'href' : 'tour-list.html','name' : 'tour-list'},
 				{'content' : '公司介绍', 'href' : 'gongsi.html','name' : 'gongsi'},
-				{'content' : '练习我们', 'href' : 'lianxi.html','name' : 'lianxi'}
+				{'content' : '联系我们', 'href' : 'lianxi.html','name' : 'lianxi'}
 
 			]
 		}

@@ -7,7 +7,7 @@ webpackJsonp([3],{
 	 * @Author: Administrator
 	 * @Date:   2017-09-08 15:38:05
 	 * @Last Modified by:   Administrator
-	 * @Last Modified time: 2017-09-14 16:08:13
+	 * @Last Modified time: 2017-09-15 17:57:06
 	 */
 	__webpack_require__(31);
 	__webpack_require__(7);
@@ -19,7 +19,7 @@ webpackJsonp([3],{
 	    banner: function() {
 	        var images_height = '400px';
 	        //图片路径/链接(数组形式):
-	        var images_url = ['../image/top06.jpg','../image/top06.jpg','../image/top06.jpg','../image/top06.jpg'];
+	        var images_url = ['../image/1.jpg','../image/2.jpg','../image/top06.jpg','../image/top06.jpg'];
 	        var images_count = images_url.length;
 	        //console.log(images_count);
 

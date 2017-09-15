@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-09-08 16:48:25
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-14 16:31:09
+* @Last Modified time: 2017-09-15 17:51:26
 */
 /* 轮播图 */
 
@@ -233,43 +233,49 @@ article.contentall ul.imgshow li p img{
 	border-top: 1px #0085d2 dashed;
 }
 .flow li{
-	float: left;
-	margin-left: 21px;
+    float: left;
+    margin-left: 5px;
 }
 .flow li div.left{
-	float: left;
-	width: 175px;
+    float: left;
+    width: 175px;
 }
 .flow li div.left p{
-	width: 172px;
-	height: 150px;
+    width: 112px;
+    height: 150px;
+    margin: auto;
 }
 .flow li.l1 div.left p{
-	background: url(../image/f1.png) no-repeat center left;
+    background: url('../image/f1.png') no-repeat center left;
+    background-size: 100%;
 }
 .flow li.l2 div.left p{
-	background: url(../image/f2.png) no-repeat center center;
+    background: url('../image/f2.png') no-repeat center center;
+    background-size: 100%;
 }
 .flow li.l3 div.left p{
-	background: url(../image/f3.png) no-repeat center center;
+    background: url('../image/f3.png') no-repeat center center;
+    background-size: 100%;
 }
 .flow li.l4 div.left p{
-	background: url(../image/f4.png) no-repeat center center;
+    background: url('../image/f4.png') no-repeat center center;
+    background-size: 100%;
 }
 .flow li.l5 div.left p{
-	background: url(../image/f5.png) no-repeat center right;
+    background: url('../image/f5.png') no-repeat center right;
+    background-size: 100%;
 }
 .flow li div.left a{
-	font-size: 14px;
-	color: #000;
-	display: block;
-	text-align: center;
+    font-size: 16px;
+    color: #000;
+    display: block;
+    text-align: center;
 }
 .flow li em{
-	display: block;
-	width: 54px;
-	height: 150px;
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAkCAYAAADCW8lNAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA+dpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTctMDktMTFUMTc6MDg6NTArMDg6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE3LTA5LTExVDE3OjA5OjA0KzA4OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE3LTA5LTExVDE3OjA5OjA0KzA4OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEQkZFODRDQjk2RDAxMUU3OEE0NTk2RUEwNTFFOUJFNCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEQkZFODRDQzk2RDAxMUU3OEE0NTk2RUEwNTFFOUJFNCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkRCRkU4NEM5OTZEMDExRTc4QTQ1OTZFQTA1MUU5QkU0IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkRCRkU4NENBOTZEMDExRTc4QTQ1OTZFQTA1MUU5QkU0Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+KKgwJgAAAYtJREFUeNpi/P//P8NwBEwMwxSMeoyW4HW29oXX2VoCwzHG9IH4wessLYPhmBT5gfj860zNhOGax+a/ztRYQKkhjIOhuAfmMaAjIIgB7B4Q+/9FIHYQnXnrw3ArFSH5Ll2VrHzH+LbepQFI14NDChFaYMn/6GJgYRgbJo4SygzwFICiD0kMi3n/cZiFZEei6KzbC4ZLjKHmu1SVYekxEIh/nap84XWKksBw8xgi3yUrGgw3j8Hru1fJignDta04/1WSwoLh2giOf5Uof+FVopzAcGzdg/PdqwRZg+HYbYHkuwTZhOHaH1OAMViGiYc+AnGC2ILHG4ZTjF0EYgdkTw0Hj20Ee2r+owvoEkM5KTaKzXvQgEuSZcjmp7n3Nwynlgc4P4kS8NRQ8xg4P4nOuXeBGMVDJSk2is6+0zBcxjxAGJif/ieIzry9gVQzmQZ9fiLDU4PZY5D8NPPWBXINYBmU+Wn6jQZKDRlMHgPXT6LTr2+ghmFMgyo/Tbu2gVoGMo5O/I16bHAAgAADAL4lveWGPi5yAAAAAElFTkSuQmCC) no-repeat center right;
-	overflow: hidden;
+    display: block;
+    width: 75px;
+    height: 150px;
+    background: url('../image/j1.png') no-repeat center right;
+    overflow: hidden;
 }
 /* 主要内容区结束 */
