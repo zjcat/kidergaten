@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-09-11 10:04:05
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-14 17:29:56
+* @Last Modified time: 2017-09-15 09:16:27
 */
 html,body{
     font-family: "微软雅黑"
@@ -84,12 +84,12 @@ a{
 	font-size: 18px;
 	text-align: center;
 	line-height: 60px;
-	width: calc(100%/7);
+	width: calc(100%/7 - 1px);
 	list-style: none;
 }
-.navbox li.active{
+/* .navbox li.active{
 	background-color: #1674AA;
-}
+} */
 .navbox ul li:last-child{
 	margin-right: 0;
 }

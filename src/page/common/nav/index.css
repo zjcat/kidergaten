@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-09-12 10:07:15
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-13 10:59:26
+* @Last Modified time: 2017-09-15 09:05:44
 */
 .navbox .w1200{
 	height: 60px;
@@ -16,7 +16,7 @@
 	font-size: 18px;
 	text-align: center;
 	line-height: 60px;
-	width: calc(100%/7);
+	width: calc(100%/7 - 1px);
 	list-style: none;
 }
 .navbox li.active{
